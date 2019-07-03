@@ -1,173 +1,3 @@
-.heading {
-  position: relative;
-  z-index: -1;
-}
-.heading .heading-img {
-  width: 100%;
-}
-.heading .box {
-  background-color: #201e1e;
-}
-.heading .box h1 {
-  color: black;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 3rem;
-  transform: translate(-50%, -50%);
-}
-.heading .box h3 {
-  color: black;
-  text-align: center;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  font-size: 2rem;
-  transform: translate(-50%, -50%);
-}
-.container .about {
-  display: flex;
-  background-color: #fad0c9;
-  margin-top: 3%;
-}
-.container .about img {
-  width: 45%;
-  margin: 30px;
-  border-radius: 5px;
-  box-shadow: 10px 10px 5px grey;
-}
-.container .about .about-text {
-  width: 45%;
-  padding: 20px;
-}
-.container .about .about-text h2 {
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 20%;
-}
-.container .about .about-text p {
-  font-size: 1.2rem;
-  text-align: center;
-  margin-top: 10px;
-}
-.container .portfolio {
-  display: flex;
-  flex-direction: column;
-  background-color: #fad0c9;
-  margin-top: 3%;
-}
-.container .portfolio h2 {
-  font-size: 2rem;
-  padding: 20px;
-  text-align: center;
-}
-.container .portfolio h4 {
-  font-size: 1rem;
-  padding: 5px;
-}
-.container .portfolio img {
-  width: 30%;
-}
-.container .contact {
-  background-color: #fad0c9;
-  margin-top: 3%;
-  margin-bottom: 5%;
-}
-.container .contact h2 {
-  font-size: 2rem;
-  padding: 20px;
-  text-align: center;
-}
-.container .contact .flex {
-  display: flex;
-  justify-content: space-around;
-}
-.container .contact .flex .send-box input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-}
-.container .contact .flex .info .icon {
-  display: flex;
-}
-.container .contact .flex .info .icon img {
-  width: 40px;
-  margin: 10px;
-}
-.container .contact .flex .info .icon h3 {
-  font-size: 1.5rem;
-  padding: 20px;
-}
-* {
-  box-sizing: border-box;
-}
-html {
-  font-size: 62.5%;
-  background-color: #201e1e;
-}
-html,
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #201e1e;
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Roboto', sans-serif;
-}
-h2 {
-  font-size: 3.2rem;
-}
-h3 {
-  font-size: 2.8rem;
-}
-p {
-  font-size: 1.6rem;
-  line-height: 1.4;
-}
-.container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-}
-@media (max-width: 500px) {
-  .container {
-    width: 100%;
-    display: flex;
-  }
-}
-.main-header {
-  width: 100%;
-  position: fixed;
-  text-align: center;
-}
-.main-header .nav-container {
-  display: flex;
-  background-color: #201e1e;
-  justify-content: space-between;
-  padding: 15px;
-}
-.main-header .nav-container .logo {
-  font-size: 2rem;
-  color: #fad0c9;
-  text-decoration: none;
-}
-.main-header .nav-container .logo:hover {
-  color: #CC3AA6;
-  text-shadow: 2px 2px 8px #fad0c9;
-}
-.main-header .nav-container .nav a {
-  color: #fad0c9;
-  padding: 10px;
-  font-size: 1.5rem;
-  text-decoration: none;
-}
-.main-header .nav-container .nav a:hover {
-  color: #CC3AA6;
-  text-shadow: 5px 5px 15px #fad0c9;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -295,4 +125,164 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: #201e1e;
+}
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #201e1e;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    display: flex;
+  }
+}
+.main-header {
+  width: 100%;
+  text-align: center;
+}
+.main-header .nav-container {
+  display: flex;
+  background-color: #201e1e;
+  justify-content: space-between;
+  padding: 15px;
+}
+.main-header .nav-container .logo {
+  font-size: 2rem;
+  color: #fad0c9;
+  text-decoration: none;
+}
+.main-header .nav-container .logo:hover {
+  color: #CC3AA6;
+  text-shadow: 2px 2px 8px #fad0c9;
+}
+.main-header .nav-container .nav a {
+  color: #fad0c9;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.main-header .nav-container .nav a:hover {
+  color: #CC3AA6;
+  text-shadow: 5px 5px 15px #fad0c9;
+}
+.heading {
+  background-image: url(../img/bg-pink.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading .box {
+  padding: 5%;
+  background-color: #201e1edb;
+  text-align: center;
+  border-radius: 10px;
+}
+.heading .box h1 {
+  color: #fad0c9;
+  font-size: 3rem;
+}
+.heading .box h3 {
+  color: #fad0c9;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.container .about {
+  display: flex;
+  background-color: #fad0c9;
+  margin-top: 3%;
+}
+.container .about img {
+  width: 45%;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px grey;
+}
+.container .about .about-text {
+  width: 45%;
+  padding: 20px;
+}
+.container .about .about-text h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 20%;
+}
+.container .about .about-text p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+.container .portfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: #fad0c9;
+  margin-top: 3%;
+}
+.container .portfolio h2 {
+  font-size: 2rem;
+  padding: 20px;
+  text-align: center;
+}
+.container .portfolio h4 {
+  font-size: 1rem;
+  padding: 5px;
+}
+.container .portfolio img {
+  width: 30%;
+}
+.container .contact {
+  background-color: #fad0c9;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.container .contact h2 {
+  font-size: 2rem;
+  padding: 20px;
+  text-align: center;
+}
+.container .contact .info .icon {
+  display: flex;
+}
+.container .contact .info .icon img {
+  width: 40px;
+  margin: 10px;
+}
+.container .contact .info .icon h3 {
+  font-size: 1.5rem;
+  padding: 20px;
 }
