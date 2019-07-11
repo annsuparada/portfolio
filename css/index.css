@@ -262,18 +262,6 @@ p {
   font-size: 1rem;
   padding: 5px;
 }
-.container .portfolio img {
-  width: 80%;
-  align-items: center;
-  margin: 5px;
-}
-.container .portfolio .project {
-  display: flex;
-  justify-content: space-evenly;
-}
-.container .portfolio .project .card {
-  margin: 15px;
-}
 .container .contact {
   background-color: #fad0c9;
   margin-top: 3%;
@@ -298,4 +286,19 @@ p {
 .container .contact .info .icon h3 {
   font-size: 2rem;
   padding: 5px 5px 10px 5px;
+}
+.portfolio .tabs {
+  display: flex;
+  justify-content: space-evenly;
+}
+.portfolio .tabs .tab-links {
+  display: flex;
+}
+.portfolio .tabs .tabs-items {
+  margin: 15px;
+}
+.portfolio .tabs .tabs-items img {
+  width: 80%;
+  align-items: center;
+  margin: 5px;
 }
