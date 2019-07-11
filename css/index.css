@@ -254,7 +254,7 @@ p {
   margin-top: 3%;
 }
 .container .portfolio h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 20px;
   text-align: center;
 }
@@ -263,26 +263,39 @@ p {
   padding: 5px;
 }
 .container .portfolio img {
-  width: 30%;
+  width: 80%;
+  align-items: center;
+  margin: 5px;
+}
+.container .portfolio .project {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .portfolio .project .card {
+  margin: 15px;
 }
 .container .contact {
   background-color: #fad0c9;
   margin-top: 3%;
   margin-bottom: 5%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-evenly;
 }
 .container .contact h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 20px;
-  text-align: center;
+  margin-top: 7%;
 }
 .container .contact .info .icon {
   display: flex;
+  align-items: center;
 }
 .container .contact .info .icon img {
   width: 40px;
   margin: 10px;
 }
 .container .contact .info .icon h3 {
-  font-size: 1.5rem;
-  padding: 20px;
+  font-size: 2rem;
+  padding: 5px 5px 10px 5px;
 }
