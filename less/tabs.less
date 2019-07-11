@@ -1,21 +1,33 @@
-//tab is inside the .portfolio
-
-.portfolio{
-    .tabs{
-        display: flex;
-        justify-content: space-evenly;
-
-        .tab-links{
-            display: flex;
-        }
-        .tabs-items{
-            margin: 15px;
-            img{
-                width: 80%;
-                align-items: center;
-                margin: 5px;
+.tabs {
+    .flex(center, center);
+    width: 100%;
+    .topics{
+        .flex(none, center);
+        .title {
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            font-weight: bold;
+          }
+          .tab{
+            .flex(none, center);
+            color: @pink;
+            background-color: @black;
+            margin: 0 5px;
+            padding: 5px 15px;
+            font-size: 12px;
+            letter-spacing: 2px;
+            border: 2px solid @pink;
+            cursor: pointer;
+            font-weight: bold;
+            &:hover {
+            text-decoration: underline;
             }
-            
+        }
+        .active-tab{
+            background-color: @pink;
+            color: @black;
+            border: 2px solid @black;
         }
     }
+    //.topics
 }
