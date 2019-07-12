@@ -8,13 +8,18 @@
     
         .flex(space-between, none, column);
         background-color: @pink;
+        border: 2px solid @black;
         width: 33%;
         margin-bottom: 16px;
-        padding: 24px;
+        padding: 2%;
+        @media @phone{
+            width: 45%;
+        }
 
         .img-container {
         img {
         width: 100%;
+        border: 1px solid @black;
         }
         }
 
