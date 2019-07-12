@@ -1,0 +1,47 @@
+.cards-container {
+    .flex(space-evenly);
+    width: 100%;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    
+    .card {
+    
+        .flex(space-between, none, column);
+        background-color: @pink;
+        width: 33%;
+        margin-bottom: 16px;
+        padding: 24px;
+
+        .img-container {
+        img {
+        width: 100%;
+        }
+        }
+
+        .headline {
+            font-size: 2rem;
+            margin-top: 10px;
+        }
+            
+        
+        span {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+        .project-link{
+            margin-top: 10px;
+            a{
+                font-size: 1.2rem;
+                text-decoration: none;
+                font-weight: bold;
+                &:hover {
+                text-decoration: underline;
+                }
+            }
+        }
+      
+    }
+}
+
