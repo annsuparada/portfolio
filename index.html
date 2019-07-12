@@ -14,10 +14,10 @@
         <div class="nav-container">
             <a class="logo" href="#"><h1>SUPARADA</h1></a>
             <nav class="nav">
-                <a href="#">ABOUT</a>
-                <a href="#">PORTFOLIO</a>
-                <a href="#">RESUME</a>
-                <a href="#">CONTACT</a>
+                <a href="#about-nav">ABOUT</a>
+                <a href="#portfolio-nav">PORTFOLIO</a>
+                <!-- <a href="#">RESUME</a> -->
+                <a href="#contact-nav">CONTACT</a>
             </nav>
         </div>
     </header>
@@ -30,14 +30,20 @@
         </div>
 
     <div class="container">
-       <section class="about">
-            <img src="img/about-img.jpg">
+       <section class="about" id="about-nav">
+            <img src="img/ann.png">
            <div class="about-text">
                 <h2>ABOUT</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eius exercitationem, optio deleniti facere delectus ut deserunt? Quisquam sequi officia accusamus minima, qui, facilis doloremque repellat odio ex nisi rem.</p>
+                <p>I am a web developer. My mission is to provide the best website for client.</p>
+                <p>Skills</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
             </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio-nav">
             <h2>PORTFOLIO</h2>
         </section>
 
@@ -55,27 +61,40 @@
 
             <!-- CARDS COMPONENT -->
             <div class="cards-container"> 
-                <div class="card" data-tab="ui">
+                <div class="card" data-tab="css">
                     <div class="img-container">
-                        <img src="img/project1.png">
+                        <img src="img/css3.png">
                     </div>
-                        <div class="headline">User Interface</div>
-                        <span>Using flexbox and box model.</span>
-                        <div class="project-link">
-                            <a href="https://github.com/annsuparada/UI-III-Flexbox/commit/37fc9b583024cc5803a4cc40d8c5d1f49fb8500e" target="_blank">
-                                View code</a>
-                        </div>
+                    <div class="headline">Component</div>
+                    <span>Design the UI and using Less to write CSS.</span>
+                    <div class="project-link">
+                        <a href="https://github.com/correlates-of-war-build-week/COW-User-Interface/commits/suparada-saitalae" target="_blank">
+                            View code</a>
+                        <a href="https://warstories.netlify.com/" target="_blank">
+                            View live</a>
+                    </div>
+                    </div><!--card-->
+                <div class="card" data-tab="ui">
+                <div class="img-container">
+                    <img src="img/project1.png">
+                </div>
+                    <div class="headline">User Interface</div>
+                    <span>Using flexbox and box model.</span>
+                    <div class="project-link">
+                        <a href="https://github.com/annsuparada/UI-III-Flexbox/commit/37fc9b583024cc5803a4cc40d8c5d1f49fb8500e" target="_blank">
+                            View code</a>
+                    </div>
                 </div><!--card-->
                 <div class="card" data-tab="ui">
-                    <div class="img-container">
-                        <img src="img/ui2.png">
+                <div class="img-container">
+                    <img src="img/ui2.png">
+                </div>
+                    <div class="headline">User Interface</div>
+                    <span>Using flexbox and box model.</span>
+                    <div class="project-link">
+                        <a href="https://github.com/annsuparada/Sprint-Challenge--User-Interface/commit/825a3b17ed70e4a524a021bab52a6100fbdfce11" target="_blank">
+                            View code</a>
                     </div>
-                        <div class="headline">User Interface</div>
-                        <span>Using flexbox and box model.</span>
-                        <div class="project-link">
-                            <a href="https://github.com/annsuparada/Sprint-Challenge--User-Interface/commit/825a3b17ed70e4a524a021bab52a6100fbdfce11" target="_blank">
-                                View code</a>
-                        </div>
                 </div><!--card-->
                 
                 <div class="card" data-tab="css">
@@ -83,7 +102,7 @@
                         <img src="img/css1.png">
                     </div>
                     <div class="headline">LESS</div>
-                    <span>Using Less to create a web page</span>
+                    <span>Using Less to write CSS</span>
                     <div class="project-link">
                         <a href="https://github.com/annsuparada/Preprocessing-II/commit/c8ed48ad792287d1421b4803655cc499f4c7c8fc"  target="_blank">
                             View code</a>
@@ -94,23 +113,35 @@
                             <img src="img/css2.png">
                         </div>
                         <div class="headline">LESS</div>
-                        <span>Using Less to create a web page</span>
+                        <span>Using Less to write CSS</span>
                         <div class="project-link">
                             <a href="https://github.com/annsuparada/Sprint-Challenge--Advanced-CSS/commit/75982a860a20be09570e445164c841729783dcf5"  target="_blank">
                                 View code</a>
                         </div>
                     </div><!--card-->
+                    <div class="card" data-tab="javaScript">
+                    <div class="img-container">
+                        <img src="img/javascript1.png">
+                    </div>
+                    <div class="headline">Component</div>
+                    <span>Using JavaScript to create comonent</span>
+                    <div class="project-link">
+                        <a href="https://github.com/annsuparada/github-usercard/commits/suparada-saitalae" target="_blank">
+                            View code</a>
+                    </div>
+                    </div><!--card-->
                 <div class="card" data-tab="javaScript">
                     <div class="img-container">
-                        <img src="img/project1.png">
+                        <img src="img/javascript2.png">
                     </div>
-                    <div class="headline">Title3</div>
-                    <span>One sentence to describe what it does</span>
+                    <div class="headline">Component</div>
+                    <span>Using JavaScript to create comonent</span>
                     <div class="project-link">
-                        <a href="#" target="_blank">
+                        <a href="https://github.com/annsuparada/Sprint-Challenge-Applied-JavaScript-v2/commits/suparada-saitalae" target="_blank">
                             View code</a>
                     </div>
                 </div><!--card-->
+                
 
                 
 
@@ -121,18 +152,18 @@
            
         
 
-        <section class="contact">
+        <section class="contact" id="contact-nav">
             
             <h2>CONTACT</h2>
             
                 <div class="info">
                     
                     <div class="icon">
-                        <a href="#"><img src="img/location.png"></a>
+                        <a href="https://goo.gl/maps/PguaUAReN4mGo2PLA" target="_blank"><img src="img/location.png"></a>
                         <h3>Tulsa, Oklahoma</h3>
                     </div>
                     <div class="icon">
-                        <a href="#"><img src="img/email.png"></a>
+                        <a href="mailto:ann.suparada@gmail.com ? subject=subject text" target="_blank"><img src="img/email.png"></a>
                         <h3>ann.suparada@gmail.com</h3>
                     </div>
                     <div class="icon">

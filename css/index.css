@@ -109,7 +109,8 @@ body {
 }
 ol,
 ul {
-  list-style: none;
+  font-size: 1.5rem;
+  margin-left: 20px;
 }
 blockquote,
 q {
@@ -221,7 +222,7 @@ p {
 }
 @media (max-width: 500px) {
   .heading {
-    height: 70vh;
+    height: 50vh;
   }
 }
 .heading .box {
@@ -241,8 +242,9 @@ p {
 }
 .container .about {
   display: flex;
+  justify-content: space-around;
   border-bottom: 2px solid #201e1e;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 @media (max-width: 500px) {
   .container .about {
@@ -251,22 +253,20 @@ p {
   }
 }
 .container .about img {
-  width: 45%;
+  width: 280px;
   margin: 30px;
-  border-radius: 5px;
+  border-radius: 50%;
   box-shadow: 10px 10px 5px grey;
 }
 @media (max-width: 500px) {
-  .container .about img {
-    display: none;
-  }
 }
 .container .about .about-text {
+  width: 45%;
   padding: 20px;
 }
 @media (max-width: 500px) {
   .container .about .about-text {
-    width: 80%;
+    width: 100%;
   }
 }
 .container .about .about-text h2 {
@@ -282,9 +282,8 @@ p {
   }
 }
 .container .about .about-text p {
-  font-size: 1.5rem;
-  text-align: center;
-  margin-top: 10px;
+  font-size: 1.8rem;
+  text-align: left;
   padding: 10px;
 }
 .container .portfolio {
@@ -444,6 +443,7 @@ p {
   font-size: 1.2rem;
   text-decoration: none;
   font-weight: bold;
+  margin-right: 15px;
 }
 .cards-container .card .project-link a:hover {
   text-decoration: underline;

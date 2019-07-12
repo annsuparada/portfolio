@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     @media @phone{
-        height: 70vh;
+        height: 50vh;
     }
    
     .box{
@@ -37,28 +37,30 @@
     
     .about{
         display: flex;
+        justify-content: space-around;
         border-bottom: 2px solid @black;
-        margin-top: 3%;
+        margin-top: 2%;
+        
         @media @phone{
             width: 100%;
             flex-direction: column
         }
         img {
-            width: 45%;
+            width: 280px;
             margin: 30px;
-            border-radius: 5px;
+            border-radius: 50%;
             box-shadow: 10px 10px 5px grey;
             @media @phone{
-                display: none;
+                // display: none;
                 // width: 70%;
                 // border-image: 15px;
             }
         }
         .about-text {
-            // width: 45%;
+            width: 45%;
             padding: 20px;
             @media @phone{
-                width: 80%;
+                width: 100%;
                 
             }
             
@@ -74,9 +76,9 @@
                 }
             }
             p{
-                font-size: 1.5rem;
-                text-align: center;
-                margin-top: 10px;
+                font-size: 1.8rem;
+                text-align: left;
+                // margin-top: 5px;
                 padding: 10px;
             }
         }
