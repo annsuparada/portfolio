@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from './components/NavBar';
-import Home from './components/Home';
+import NavBar from './components/navbar/NavBar';
+import Home from './components/home/Home';
 import { Layout } from 'antd';
 
 const { Header, Footer, Content } = Layout;

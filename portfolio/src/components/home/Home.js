@@ -1,6 +1,6 @@
-import React from 'react'
-import Header from './Header'
-import About from './About'
+import React from 'react';
+import Header from '../header/Header';
+import About from '../about/About';
 import { Row, Col } from 'antd';
 
 import './home.scss'
