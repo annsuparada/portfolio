@@ -1,0 +1,16 @@
+.protfolio-container{
+    padding: 25px;
+    h1 {
+        text-align: center;
+    }
+    .card-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ant-card{
+        width: 300px;
+        margin: 15px;
+        border: 1px solid black;
+    }
+}

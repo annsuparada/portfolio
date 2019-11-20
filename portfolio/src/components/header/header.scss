@@ -6,6 +6,16 @@
     height: 80vh;
 }
 
-.heading .text-header{
-    align-items: center;
+.text-header{
+    text-align: center;
+    padding: 15%;
+
+    h1{
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    
 }
