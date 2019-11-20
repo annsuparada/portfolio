@@ -22,7 +22,7 @@ const SpeakOut = () => {
             >
                 <Meta
                 title="Card title"
-                description="This is the description"
+                description="This is the description This is the description This is the description This is the description This is the description "
                 />
             </Card>
        </>

@@ -1,16 +1,32 @@
+@import "../../styles/variables";
 
-.about-container {
-    padding: 15px;
-    text-align: center;
-    display: flex;
-    width: 100%;
-    .left{
-        padding: 35px;
-        width: 50%;
-    }
-
-    .right{
-        padding: 35px;
-        width: 50%;
+.about-background {
+    background-color: $medium-blue;
+    .about-container {
+        padding: 15px;
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        .left{
+            display: flex;
+            align-items: center;
+            padding: 35px;
+            width: 30%;
+            img{
+                width: 160px;
+                border-radius: 50%;
+            }
+        }
+        
+        .right{
+            padding: 35px;
+            width: 70%;
+            h1 {
+                color: #ffffff;
+            }
+            p {
+                color: #ffffff;
+            }
+        }
     }
 }
