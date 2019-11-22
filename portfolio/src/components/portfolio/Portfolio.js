@@ -15,9 +15,8 @@ const Portfolio = () => {
         <h1>Portfolio</h1>
         <div className="card-wrapper">
             <SpeakOut />
-            <WarStories />
             <ClinicalTrialFinder />
-            
+            <WarStories />
         </div>
 
         </div>

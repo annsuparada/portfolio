@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card, Icon, Avatar } from 'antd';
+import { Card, Icon } from 'antd';
+import ClinicalTrial from '../../img/clinicaltrial.png'
 
 const { Meta } = Card;
 
@@ -11,13 +12,17 @@ const ClinicalTrialFinder = () => {
             <Card
                 cover={
                 <img
-                    alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    alt="Clinical Trial Finder"
+                    src={ClinicalTrial}
                 />
                 }
                 actions={[
-                <Icon type="github" key="github" />,
-                <Icon type="global" key="global" />,
+                <a href="https://github.com/build-week-072019-clinical-trial-finder/clinical-trial-finder-FE" target="_blank">
+                    <Icon type="github" key="github" />
+                </a>,
+                <a href="https://clinical-trial-finder.netlify.com/" target="_blank">
+                    <Icon type="global" key="global" />
+                </a>
                 ]}
             >
                 <Meta

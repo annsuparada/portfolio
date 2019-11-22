@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card, Icon, Avatar } from 'antd';
+import { Card, Icon } from 'antd';
+import Css from '../../img/css3.png'
 
 const { Meta } = Card;
 
@@ -11,13 +12,17 @@ const WarStories = () => {
             <Card
                 cover={
                 <img
-                    alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    alt="War Stories"
+                    src={Css}
                 />
                 }
                 actions={[
-                <Icon type="github" key="github" />,
-                <Icon type="global" key="global" />,
+                <a href="https://github.com/correlates-of-war-build-week/COW-User-Interface" target="_blank">
+                    <Icon type="github" key="github" />
+                </a>,
+                <a href="https://warstories.netlify.com/" target="_blank">
+                    <Icon type="global" key="global" />
+                </a>
                 ]}
             >
                 <Meta
