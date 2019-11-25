@@ -2,6 +2,8 @@ import React from 'react';
 import SpeakOut from './SpeakOut';
 import WarStories from './WarStories'
 import ClinicalTrialFinder from './ClinicalTrialFinder'
+import NodeJs from './NodeJs';
+
 import './portfolio.scss'
 
 
@@ -16,6 +18,9 @@ const Portfolio = () => {
                 <SpeakOut />
                 <ClinicalTrialFinder />
                 <WarStories />
+            </div>
+            <div className="card-wrapper">
+                <NodeJs />
             </div>
         </div>
        </>

@@ -1,25 +1,28 @@
 import React from 'react';
 import { Card, Icon } from 'antd';
-import SpeakOutImg from '../../img/speak-out.png';
+import NodeJsImg from '../../img/node-js.png'
 
 const { Meta } = Card;
 
 
-const SpeakOut = () => {
+const NodeJs = () => {
 
     return (
         <>
             <Card
                 cover={
                 <img
-                    alt="Speak Out"
-                    src={SpeakOutImg}
+                    alt="Node JS"
+                    src={NodeJsImg}
                 />
                 }
                 actions={[
-                <a href="https://speakout-now.com/" target="_blank">
-                    <Icon type="global" key="global" />
-                </a>
+                <a href="https://github.com/bw-party-planner/backend" target="_blank">
+                    <Icon type="github" key="github" />
+                </a>,
+                // <a href="#" target="_blank">
+                //     <Icon type="global" key="global" />
+                // </a>
                 ]}
             >
                 <Meta
@@ -31,4 +34,4 @@ const SpeakOut = () => {
     )
 } 
 
-export default SpeakOut;
+export default NodeJs;

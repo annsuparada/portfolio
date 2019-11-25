@@ -23,11 +23,11 @@ const Contact = () => {
                             <p>annsuparada</p>
                         </div>
                         <div>
-                            <a><img src={Linkedin} /></a>
+                            <a href="https://www.linkedin.com/in/ann-suparada" target="_blank"><img src={Linkedin} /></a>
                             <p>Suparada Saitalae</p>
                         </div>
                         <div>
-                            <a><img src={Email} /></a>
+                            <img src={Email} />
                             <p>ann.suparada@gmail.com</p>
                         </div>
                     </div>

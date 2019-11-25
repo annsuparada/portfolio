@@ -5,7 +5,7 @@ const FooterBar = () => {
 
     return (
         <div className="footer">
-            <p>Coppyright 2019 | Ann Suparada Saitalae</p>
+            <p>Coppyright 2019 | Suparada Saitalae</p>
         </div>
     )
 } 
