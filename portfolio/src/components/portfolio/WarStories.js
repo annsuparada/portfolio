@@ -26,8 +26,10 @@ const WarStories = () => {
                 ]}
             >
                 <Meta
-                title={<h6>Title</h6>}
-                description={<p>This is the description This is the description This is the description This is the description This is the description</p>}
+                title={<h6>War Stories</h6>}
+                description={<p>
+                   Using pure  HTML5, CSS and JavaScript. Designed responsive website for landing page and about page.  Worked directly with data scientist, front end,  back end developers. 
+                    </p>}
                 />
             </Card>
        </>

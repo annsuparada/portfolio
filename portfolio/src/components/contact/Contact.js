@@ -13,7 +13,8 @@ const Contact = () => {
                     <div className="contact-left">
                         <h2>Contact</h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                        Email me any questions. I would be happy to answer your questions or set up a meeting with you. Let’s build something awesome together!
+
                         </p>
                     </div>
                     <div className="contact-right">

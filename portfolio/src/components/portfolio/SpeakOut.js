@@ -23,8 +23,10 @@ const SpeakOut = () => {
                 ]}
             >
                 <Meta
-                title={<h6>Title</h6>}
-                description={<p>This is the description This is the description This is the description This is the description This is the description</p>}
+                title={<h6>Speak Out</h6>}
+                description={<p>
+                    Using React/Redux for front end and Styled Components, Ant Design for UI. Worked directly with UX designer. Interviewed stakeholder. Rearched customer and competitor for analysis.
+                    </p>}
                 />
             </Card>
        </>

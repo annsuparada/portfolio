@@ -26,8 +26,10 @@ const NodeJs = () => {
                 ]}
             >
                 <Meta
-                title={<h6>Title</h6>}
-                description={<p>This is the description This is the description This is the description This is the description This is the description</p>}
+                title={<h6>Node JS</h6>}
+                description={<p>
+                    Using Node JS, Express, PosgreSQL build content management system. Created custom authentication using JSON Web token.  Worked directly with front end, UI developers.
+                    </p>}
                 />
             </Card>
        </>

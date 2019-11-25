@@ -26,8 +26,11 @@ const ClinicalTrialFinder = () => {
                 ]}
             >
                 <Meta
-                title={<h6>Title</h6>}
-                description={<p>This is the description This is the description This is the description This is the description This is the description</p>}
+                title={<h6>Clinical Trials Finder</h6>}
+                description={
+                    <p>Using React/Redux for front end and Semantic UI for responsive user interface. Worked directly with 
+                    data scientist, back end and UI developers to make a better web application for users.
+                    </p>}
                 />
             </Card>
        </>
