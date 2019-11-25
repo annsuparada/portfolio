@@ -1,0 +1,18 @@
+.ant-layout-footer {
+    border-top: 1px solid #001529;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    img {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}

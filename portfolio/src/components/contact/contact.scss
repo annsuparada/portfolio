@@ -1,0 +1,54 @@
+@import "../../styles/variables";
+
+.contact-container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    
+    .contact-card{
+        background-color: $main-blue;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+            @media #{$tablet-big} {
+                flex-direction: column;
+                justify-content: center;
+            }
+            @media #{$mobile} {
+                width: 90%;
+            }
+        
+        .contact-left{
+            width: 100%; 
+            padding: 25px;
+            h2{
+                color: $white;
+                margin-bottom: 2px;
+            }
+            p {
+                color: $white;
+            }
+        }
+        .contact-right {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color:$white;
+            padding: 25px;
+            h2 { 
+                color: $main-blue;
+                }
+            }
+            img {
+            width: 40px;
+            margin: 0 auto;
+            padding: 2px;
+            }
+    }
+    
+}

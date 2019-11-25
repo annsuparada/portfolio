@@ -1,0 +1,43 @@
+@import "../../styles/variables";
+
+.about-background {
+    background-color: $main-blue;
+    .about-container {
+        padding: 15px;
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+            @media #{$tablet} {
+                width: 95%;
+            }
+            @media #{$tablet-small} {
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+
+        .left{
+            display: flex;
+            align-items: center;
+            padding: 3%;
+            img{
+                width: 180px;
+                border-radius: 50%;
+            }
+        }
+        
+        .right{
+            padding: 2%;
+            h2 {
+                color: $white;
+                margin-bottom: 3px;
+            }
+            p {
+                color: $white;
+            }
+            @media #{$tablet} {
+                width: 100%;
+            }
+        }
+    }
+}
