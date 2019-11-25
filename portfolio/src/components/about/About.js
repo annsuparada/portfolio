@@ -1,11 +1,12 @@
 import React from 'react'
-import { Row, Col } from 'antd';
+import ScrollableAnchor from 'react-scrollable-anchor'
 import Ann from '../../img/ann.png';
 import './about.scss';
 
 const About = () => {
 
     return (
+        <ScrollableAnchor id={'about'}>
         <div className="about-background">
             <div className="about-container">
                 <div className="left">
@@ -19,6 +20,7 @@ const About = () => {
                 </div>
             </div>
         </div>
+        </ScrollableAnchor>
     )
 }
 

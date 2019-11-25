@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from 'antd';
+import ScrollableAnchor from 'react-scrollable-anchor'
 import './header.scss'
 
 const Header = () => {
@@ -10,7 +11,9 @@ const Header = () => {
                 <div className="text-header">
                     <h1>Suparada Saitalae</h1>
                     <h4>Full-Stack Web Developer</h4>
-                    <Button type="primary">Contact</Button>
+                    
+                    <Button type="primary"><a href='#contact'>Contact</a></Button>
+                   
                 </div>
                 
             </div>

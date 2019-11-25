@@ -12,9 +12,9 @@ const NavBar = () => {
             defaultSelectedKeys={['1']}
             style={{ lineHeight: '64px' }}
             >
-                <Menu.Item key="1">PORTFOLIO</Menu.Item>
-                <Menu.Item key="2">ABOUT</Menu.Item>
-                <Menu.Item key="3">CONTACT</Menu.Item>
+                <Menu.Item key="1"><a href='#portfolio'>PORTFOLIO</a></Menu.Item>
+                <Menu.Item key="2"><a href='#about'>ABOUT</a></Menu.Item>
+                <Menu.Item key="3"><a href='#contact'>CONTACT</a></Menu.Item>
             </Menu>
         </>
     )
