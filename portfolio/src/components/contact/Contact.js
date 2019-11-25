@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="contact-container">
             <div className="contact-card">
                     <div className="contact-left">
-                        <h1>Contact</h1>
+                        <h2>Contact</h2>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                         </p>

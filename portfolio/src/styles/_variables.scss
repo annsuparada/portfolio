@@ -20,8 +20,9 @@ $font-family: Mada, Lato, sans-serif, arial;
 
 
 //media queries
-$mobile: 'only screen and (max-width:500px)';
-$tablet: 'only screen and (max-width:1200px)';
-$tablet-small: 'only screen and (max-width:800px)';
-$tablet-short: 'only screen and (max-height:550px)';
+$mobile: 'only screen and (max-width:515px)';
+$mobile-small: 'only screen and (max-width:380px)';
+$tablet: 'only screen and (max-width:1000px)';
+$tablet-big: 'only screen and (max-width:850px)';
+$tablet-small: 'only screen and (max-width:650px)';
 $desktop: 'only screen and (min-width:1200px)';

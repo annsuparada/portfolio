@@ -1,31 +1,42 @@
 @import "../../styles/variables";
 
 .about-background {
-    background-color: $medium-blue;
+    background-color: $main-blue;
     .about-container {
         padding: 15px;
         display: flex;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
+            @media #{$tablet} {
+                width: 95%;
+            }
+            @media #{$tablet-small} {
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+
         .left{
             display: flex;
             align-items: center;
-            padding: 35px;
-            width: 30%;
+            padding: 3%;
             img{
-                width: 160px;
+                width: 180px;
                 border-radius: 50%;
             }
         }
         
         .right{
-            padding: 35px;
-            width: 70%;
-            h1 {
-                color: #ffffff;
+            padding: 2%;
+            h2 {
+                color: $white;
+                margin-bottom: 3px;
             }
             p {
-                color: #ffffff;
+                color: $white;
+            }
+            @media #{$tablet} {
+                width: 100%;
             }
         }
     }

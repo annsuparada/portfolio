@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 html {
 	font-size: 62.5%;
 }
@@ -23,8 +23,8 @@ i {
 }
 
 p {
-	font-family: 'Mada';
-	font-size: 1.8rem;
+	font-family: 'Roboto';
+	font-size: 1.5rem;
 }
 
 b {
@@ -32,36 +32,37 @@ b {
 }
 
 h1 {
-	font-family: 'Mada';
+	font-family: 'Noto Sans KR', sans-serif;
 	font-weight: bold;
 	font-size: 4.8rem;
 }
 
 h2 {
-	font-family: 'Mada';
+	font-family: 'Noto Sans KR', sans-serif;
 	font-weight: bold;
 	font-size: 4rem;
 }
 
 h3 {
-	font-family: 'Mada';
+	font-family: 'Roboto';
 	font-weight: bold;
 	font-size: 3.6rem;
 }
 
 h4 {
-	font-family: 'Mada';
+	font-family: 'Roboto';
 	font-weight: bold;
 	font-size: 2.4rem;
 }
 
 h5 {
-	font-family: 'Mada';
-	// font-weight: bold;
+	font-family: 'Roboto';
+	font-weight: bold;
 	font-size: 2rem;
 }
 
 h6 {
+	font-family: 'Roboto';
 	font-size: 1.8rem;
 	font-weight: 500;
 }

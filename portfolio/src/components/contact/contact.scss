@@ -4,21 +4,31 @@
     padding: 20px;
     display: flex;
     justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
     
     .contact-card{
         background-color: $main-blue;
         width: 60%;
         display: flex;
         align-items: center;
-        // padding: 25px;
-        border: 1px solid $main-blue;
         text-align: center;
+        -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+            @media #{$tablet-big} {
+                flex-direction: column;
+                justify-content: center;
+            }
+            @media #{$mobile} {
+                width: 90%;
+            }
         
         .contact-left{
             width: 100%; 
             padding: 25px;
-            h1{
+            h2{
                 color: $white;
+                margin-bottom: 2px;
             }
             p {
                 color: $white;

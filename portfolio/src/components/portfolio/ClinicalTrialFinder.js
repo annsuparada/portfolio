@@ -26,8 +26,8 @@ const ClinicalTrialFinder = () => {
                 ]}
             >
                 <Meta
-                title="Card title"
-                description="This is the description This is the description This is the description This is the description This is the description "
+                title={<h6>Title</h6>}
+                description={<p>This is the description This is the description This is the description This is the description This is the description</p>}
                 />
             </Card>
        </>
