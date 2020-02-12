@@ -7,8 +7,8 @@ import './contact.scss'
 const Contact = () => {
 
     return (
-        <div className="contact-container">
-            <div className="contact-card"  id="contact">
+        <div className="contact-container" id="contact">
+            <div className="contact-card"  >
                     <div className="contact-left">
                             <h2>Contact</h2>
                         <p>

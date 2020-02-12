@@ -24,9 +24,19 @@ const SpeakOut = () => {
             >
                 <Meta
                 title={<h6>Speak Out</h6>}
-                description={<p>
-                    Using React/Redux for front end and Styled Components, Ant Design for UI. Worked directly with UX designer. Interviewed stakeholder. Rearched customer and competitor for analysis.
-                    </p>}
+                description={
+                    <div>
+                    <p>
+                    A language school in Bahrain that provides quality, 
+                    affordable language learning to the community.   
+                    </p>
+                    <p> 
+                    Using <b>React/Redux</b> for front-end and <b>Styled Components</b>,  
+                     <b>Ant Design</b> for UI.  Worked directly with a UX designer. Interviewed stakeholder. 
+                      Researched customer and competitor for analysis.
+                    </p>
+                    </div>
+                    }
                 />
             </Card>
        </>
