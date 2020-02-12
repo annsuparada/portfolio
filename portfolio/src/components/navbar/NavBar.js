@@ -1,23 +1,44 @@
 import React from 'react'
-import { Menu } from 'antd';
+import { Link } from "react-scroll";
 import './navbar.scss'
 
 const NavBar = () => {
 
     return (
-        <>
-            <Menu
-            theme="dark"
-            mode="horizontal"
-            defaultSelectedKeys={['1']}
-            style={{ lineHeight: '64px' }}
+        <div className="nav">
+            <Link activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-30}
+                duration={1000}
             >
-                <Menu.Item key="1"><a href='#portfolio'>PORTFOLIO</a></Menu.Item>
-                <Menu.Item key="2"><a href='#about'>ABOUT</a></Menu.Item>
-                <Menu.Item key="3"><a href='#contact'>CONTACT</a></Menu.Item>
-            </Menu>
-        </>
+                About
+            </Link>
+            <Link activeClass="active"
+                to="portfolio"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-50}
+                duration={1000}
+            >
+                Portfolio
+            </Link>
+            <Link activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={0}
+                duration={1000}
+            >
+                Contact
+            </Link>
+
+        </div>
     )
-} 
+}
 
 export default NavBar;

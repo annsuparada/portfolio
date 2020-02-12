@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor'
 import SpeakOut from './SpeakOut';
 import WarStories from './WarStories'
 import ClinicalTrialFinder from './ClinicalTrialFinder'
@@ -13,10 +12,8 @@ const Portfolio = () => {
 
     return (
         <>
-        <div className="protfolio-container">
-            <ScrollableAnchor id={'portfolio'}>
-                <h1>Portfolio</h1>
-            </ScrollableAnchor>
+        <div className="protfolio-container" id="portfolio">
+                <h1 >Portfolio</h1>
             <div className="card-wrapper">
                 <SpeakOut />
                 <ClinicalTrialFinder />

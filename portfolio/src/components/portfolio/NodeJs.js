@@ -20,9 +20,7 @@ const NodeJs = () => {
                 <a href="https://github.com/bw-party-planner/backend" target="_blank">
                     <Icon type="github" key="github" />
                 </a>,
-                // <a href="#" target="_blank">
-                //     <Icon type="global" key="global" />
-                // </a>
+           
                 ]}
             >
                 <Meta

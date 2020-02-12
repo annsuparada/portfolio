@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor'
 import Github from '../../img/github.png';
 import Email from '../../img/email.png';
 import Linkedin from '../../img/linkedin-logo.png'
@@ -9,11 +8,9 @@ const Contact = () => {
 
     return (
         <div className="contact-container">
-            <div className="contact-card">
+            <div className="contact-card"  id="contact">
                     <div className="contact-left">
-                        <ScrollableAnchor id={'contact'}>
                             <h2>Contact</h2>
-                        </ScrollableAnchor>
                         <p>
                         Email me any questions. I would be happy to answer your questions or set up a meeting with you. Let’s build something awesome together!
                         </p>
