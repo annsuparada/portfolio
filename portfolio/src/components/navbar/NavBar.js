@@ -6,17 +6,17 @@ const NavBar = () => {
 
     return (
         <div className="nav">
-            <Link activeClass="active"
+            <Link 
                 to="about"
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={-30}
+                offset={-100}
                 duration={1000}
             >
                 About
             </Link>
-            <Link activeClass="active"
+            <Link 
                 to="portfolio"
                 spy={true}
                 smooth={true}
@@ -26,12 +26,12 @@ const NavBar = () => {
             >
                 Portfolio
             </Link>
-            <Link activeClass="active"
+            <Link 
                 to="contact"
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={0}
+                offset={50}
                 duration={1000}
             >
                 Contact

@@ -25,9 +25,16 @@ const NodeJs = () => {
             >
                 <Meta
                 title={<h6>Node JS</h6>}
-                description={<p>
-                    Using Node JS, Express, PosgreSQL build content management system. Created custom authentication using JSON Web token.  Worked directly with front end, UI developers.
-                    </p>}
+                description={
+                    <div>
+                        <p>
+                            Developed APIs for party planner web application. Features are shopping list, todo list, budget list, and category.
+                        </p>
+                        <p>
+                            Using <b>Node JS, Express, PosgreSQL</b> build content management system. Created custom authentication using <b>JSON Web token</b>.  Worked directly with front end and UI developers.
+                        </p>
+                    </div>
+                    }
                 />
             </Card>
        </>

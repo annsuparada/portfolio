@@ -3,6 +3,7 @@ import SpeakOut from './SpeakOut';
 import WarStories from './WarStories'
 import ClinicalTrialFinder from './ClinicalTrialFinder'
 import NodeJs from './NodeJs';
+import MazeGame from './MazeGame'
 
 import './portfolio.scss'
 
@@ -21,6 +22,7 @@ const Portfolio = () => {
             </div>
             <div className="card-wrapper">
                 <NodeJs />
+                <MazeGame />
             </div>
         </div>
        </>

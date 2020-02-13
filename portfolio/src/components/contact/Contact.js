@@ -7,8 +7,8 @@ import './contact.scss'
 const Contact = () => {
 
     return (
-        <div className="contact-container">
-            <div className="contact-card"  id="contact">
+        <div className="contact-container" id="contact">
+            <div className="contact-card"  >
                     <div className="contact-left">
                             <h2>Contact</h2>
                         <p>
@@ -26,7 +26,9 @@ const Contact = () => {
                             <p>Suparada Saitalae</p>
                         </div>
                         <div>
+                            <a href="mailto: ann.suparada@gmail.com">
                             <img src={Email} />
+                            </a>
                             <p>ann.suparada@gmail.com</p>
                         </div>
                     </div>

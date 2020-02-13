@@ -11,29 +11,36 @@ const WarStories = () => {
         <>
             <Card
                 cover={
-                <img
-                    alt="War Stories"
-                    src={Css}
-                />
+                    <img
+                        alt="War Stories"
+                        src={Css}
+                    />
                 }
                 actions={[
-                <a href="https://github.com/correlates-of-war-build-week/COW-User-Interface" target="_blank">
-                    <Icon type="github" key="github" />
-                </a>,
-                <a href="https://warstories.netlify.com/" target="_blank">
-                    <Icon type="global" key="global" />
-                </a>
+                    <a href="https://github.com/correlates-of-war-build-week/COW-User-Interface" target="_blank">
+                        <Icon type="github" key="github" />
+                    </a>,
+                    <a href="https://warstories.netlify.com/" target="_blank">
+                        <Icon type="global" key="global" />
+                    </a>
                 ]}
             >
                 <Meta
-                title={<h6>War Stories</h6>}
-                description={<p>
-                   Using pure  HTML5, CSS and JavaScript. Designed responsive website for landing page and about page.  Worked directly with data scientist, front end,  back end developers. 
-                    </p>}
+                    title={<h6>War Stories</h6>}
+                    description={
+                        <div>
+                            <p>
+                                A web application about war stats and provide you with a percentage of how likely your region will be in war.
+                            </p>
+                            <p>
+                                Using pure  <b>HTML5, CSS and JavaScript</b>. Designed responsive website for landing page and about page.  Worked directly with data scientist, front end,  back end developers.
+                            </p>
+                        </div>
+                    }
                 />
             </Card>
-       </>
+        </>
     )
-} 
+}
 
 export default WarStories;
