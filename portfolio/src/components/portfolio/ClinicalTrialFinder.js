@@ -32,7 +32,7 @@ const ClinicalTrialFinder = () => {
                             <p>
                             A web application that helping patients connect with potentially life-saving cutting-edge empirical treatments.
                             </p>
-                            <p>Using React/Redux for front end and Semantic UI for responsive user interface. Worked directly with
+                            <p>Using <b>React/Redux</b> for front end and <b>Semantic UI</b> for responsive user interface. Worked directly with
                             data scientists, back-end and UI developers to make a better web application for users.
                             </p>
                         </div>
