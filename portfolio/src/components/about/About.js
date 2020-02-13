@@ -12,11 +12,9 @@ const About = () => {
                 </div>
                 <div className="right">
                     <h2>About </h2>
-                    <p>Full-stack web developer with experience in HTML5, CSS/SASS/LESS, Javascript, React, Redux, Node JS, Express, Postgres  and website design. Strong creative, analytical, collaboration skills.
-                    My mission is to provide the best websites for clients.
+                    <p>Hi, I am a full-stack web developer from Tulsa, Oklahoma. My mission is to deliver the best functional and responsive web applications for clients.
                     </p>
-                    <p>Full-stack web developer with experience in HTML5, CSS/SASS/LESS, Javascript, React, Redux, Node JS, Express, Postgres  and website design. Strong creative, analytical, collaboration skills.
-                    My mission is to provide the best websites for clients.
+                    <p>I have experience with  HTML5, CSS/SASS/LESS, Javascript, React, Redux, Node JS, Express, Postgres, Python, Django, Flask and website design. 
                     </p>
                 </div>
             </div>

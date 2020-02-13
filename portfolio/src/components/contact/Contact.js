@@ -26,7 +26,9 @@ const Contact = () => {
                             <p>Suparada Saitalae</p>
                         </div>
                         <div>
+                            <a href="mailto: ann.suparada@gmail.com">
                             <img src={Email} />
+                            </a>
                             <p>ann.suparada@gmail.com</p>
                         </div>
                     </div>
