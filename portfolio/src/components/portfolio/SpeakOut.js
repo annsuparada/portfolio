@@ -13,7 +13,7 @@ const SpeakOut = () => {
                 cover={
                 <img
                     alt="Speak Out"
-                    src={SpeakOutImg}
+                    src={`https://res.cloudinary.com/dejr86qx8/image/upload/c_scale,q_58,w_600/v1582335482/speak-out_qbm0wj.png`}
                 />
                 }
                 actions={[

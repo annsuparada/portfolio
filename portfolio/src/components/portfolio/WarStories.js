@@ -13,7 +13,7 @@ const WarStories = () => {
                 cover={
                     <img
                         alt="War Stories"
-                        src={Css}
+                        src={`https://res.cloudinary.com/dejr86qx8/image/upload/c_scale,w_600/v1582335467/css3_ojw5ac.png`}
                     />
                 }
                 actions={[

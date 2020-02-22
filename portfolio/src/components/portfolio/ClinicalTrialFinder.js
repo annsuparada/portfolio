@@ -13,7 +13,7 @@ const ClinicalTrialFinder = () => {
                 cover={
                     <img
                         alt="Clinical Trial Finder"
-                        src={ClinicalTrial}
+                        src={`https://res.cloudinary.com/dejr86qx8/image/upload/c_scale,w_600/v1582335474/clinicaltrial_cavpjm.png`}
                     />
                 }
                 actions={[

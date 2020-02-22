@@ -13,7 +13,7 @@ const MazeGame = () => {
                 cover={
                 <img
                     alt="Node JS"
-                    src={game}
+                    src={`https://res.cloudinary.com/dejr86qx8/image/upload/c_scale,w_600/v1582335476/game_sopq8t.png`}
                 />
                 }
                 actions={[
