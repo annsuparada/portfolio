@@ -28,7 +28,7 @@ const NodeJs = () => {
                 description={
                     <div>
                         <p>
-                            Developed APIs for party planner web application. Features are shopping list, todo list, budget list, and category.
+                            Developed APIs for party planner web application. Features are shopping list, to-do list, budget list, and category.
                         </p>
                         <p>
                             Using <b>Node JS, Express, PosgreSQL</b> build content management system. Created custom authentication using <b>JSON Web token</b>.  Worked directly with front end and UI developers.

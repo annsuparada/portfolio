@@ -27,8 +27,7 @@ const SpeakOut = () => {
                 description={
                     <div>
                     <p>
-                    A language school in Bahrain that provides quality, 
-                    affordable language learning to the community.   
+                    A language school in Bahrain that provides quality, affordable language learning to the community.   
                     </p>
                     <p> 
                     Using <b>React/Redux</b> for front-end and <b>Styled Components</b>,  
