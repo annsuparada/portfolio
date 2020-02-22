@@ -18,11 +18,13 @@ const Portfolio = () => {
             <div className="card-wrapper">
                 <SpeakOut />
                 <ClinicalTrialFinder />
-                <WarStories />
             </div>
             <div className="card-wrapper">
                 <NodeJs />
                 <MazeGame />
+            </div>
+            <div className="card-wrapper">
+                <WarStories />
             </div>
         </div>
        </>
