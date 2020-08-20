@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Icon } from 'antd';
-import ClinicalTrial from '../../img/clinicaltrial.png'
 
 const { Meta } = Card;
 
@@ -17,10 +16,10 @@ const ClinicalTrialFinder = () => {
                     />
                 }
                 actions={[
-                    <a href="https://github.com/build-week-072019-clinical-trial-finder/clinical-trial-finder-FE" target="_blank">
+                    <a href="https://github.com/build-week-072019-clinical-trial-finder/clinical-trial-finder-FE" target="_blank" rel="noopener noreferrer">
                         <Icon type="github" key="github" />
                     </a>,
-                    <a href="https://clinical-trial-finder.netlify.com/" target="_blank">
+                    <a href="https://clinical-trial-finder.netlify.com/" target="_blank" rel="noopener noreferrer">
                         <Icon type="global" key="global" />
                     </a>
                 ]}

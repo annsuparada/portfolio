@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Icon } from 'antd';
-import SpeakOutImg from '../../img/speak-out.png';
 
 const { Meta } = Card;
 
@@ -17,7 +16,7 @@ const SpeakOut = () => {
                 />
                 }
                 actions={[
-                <a href="https://speakout-now.com/" target="_blank">
+                <a href="https://speakout-now.com/" target="_blank" rel="noopener noreferrer">
                     <Icon type="global" key="global" />
                 </a>
                 ]}

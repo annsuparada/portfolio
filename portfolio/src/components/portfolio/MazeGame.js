@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Icon } from 'antd';
-import game from '../../img/game.png'
 
 const { Meta } = Card;
 
@@ -17,10 +16,10 @@ const MazeGame = () => {
                 />
                 }
                 actions={[
-                <a href="https://github.com/Cakewalk-CS/CS-Build-Week-1" target="_blank">
+                <a href="https://github.com/Cakewalk-CS/CS-Build-Week-1" target="_blank" rel="noopener noreferrer">
                     <Icon type="github" key="github" />
                 </a>,
-                 <a href="https://cocky-davinci-344c63.netlify.com/" target="_blank">
+                 <a href="https://cocky-davinci-344c63.netlify.com/" target="_blank" rel="noopener noreferrer">
                     <Icon type="global" key="global" />
                 </a>
            
@@ -34,7 +33,7 @@ const MazeGame = () => {
                         A maze game for children with a galaxy theme and cartoon character. It can move 4 directions to get out of the maze.
                         </p>
                         <p>
-                        Using <b>Python, Django, and PosgreSQL</b> to developed APIs for a web application.  Worked directly with front-end and UI developers.
+                        Used <b>Python, Django, and PosgreSQL</b> to developed APIs for a web application.  Worked directly with front-end and UI developers.
                         </p>
                     </div>
                     }

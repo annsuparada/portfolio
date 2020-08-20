@@ -16,7 +16,7 @@ const FooterBar = () => {
                 offset={0}
                 duration={1000}
             >
-                <img src={Home} />
+                <img src={Home} alt="home logo"/>
             </Link>
             <p>Suparada Saitalae</p>
         </div>

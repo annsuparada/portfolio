@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Icon } from 'antd';
-import Css from '../../img/css3.png'
 
 const { Meta } = Card;
 
@@ -17,10 +16,10 @@ const WarStories = () => {
                     />
                 }
                 actions={[
-                    <a href="https://github.com/correlates-of-war-build-week/COW-User-Interface" target="_blank">
+                    <a href="https://github.com/correlates-of-war-build-week/COW-User-Interface" target="_blank" rel="noopener noreferrer">
                         <Icon type="github" key="github" />
                     </a>,
-                    <a href="https://warstories.netlify.com/" target="_blank">
+                    <a href="https://warstories.netlify.com/" target="_blank" rel="noopener noreferrer">
                         <Icon type="global" key="global" />
                     </a>
                 ]}
@@ -33,7 +32,7 @@ const WarStories = () => {
                                 A web application about war stats and provide you with a percentage of how likely your region will be in war.
                             </p>
                             <p>
-                                Using pure  <b>HTML5, CSS and JavaScript</b>. Designed responsive website for landing page and about page.  Worked directly with data scientist, front end,  back end developers.
+                                Used pure  <b>HTML5, CSS and JavaScript</b>. Designed responsive website for landing page and about page.  Worked directly with data scientist, front end,  back end developers.
                             </p>
                         </div>
                     }
