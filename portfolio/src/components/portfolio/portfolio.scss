@@ -1,6 +1,8 @@
 @import "../../styles//variables";
 
 .protfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
 .skills{
     max-width: 600px;
     margin: 0 auto;
@@ -33,7 +35,7 @@
   }
 
   .ant-card {
-    width: 30%;
+    width: 50%;
     margin: 15px;
     -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);

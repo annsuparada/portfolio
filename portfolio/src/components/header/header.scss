@@ -5,11 +5,13 @@
     background-image: url(../../img/sky-sun.jpg);
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 50vh;
 }
 
 .text-header{
-    padding: 12%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 15px;
 
     h1{
         margin-bottom: 10px;

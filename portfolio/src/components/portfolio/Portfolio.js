@@ -2,7 +2,6 @@ import React from 'react';
 import RecipeFinder from './RecipeFinder';
 import TheObservatory from './TheObservatory';
 import './portfolio.scss'
-import { Tag } from 'antd';
 
 
 const Portfolio = () => {

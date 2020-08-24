@@ -23,7 +23,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <a href="https://www.linkedin.com/in/ann-suparada" target="_blank" rel="noopener noreferrer"><img src={Linkedin} alt="Linkedin logo" /></a>
-                            <p>Suparada Saitalae</p>
+                            <p>Ann Keller</p>
                         </div>
                         <div>
                             <a href="mailto: ann.suparada@gmail.com">

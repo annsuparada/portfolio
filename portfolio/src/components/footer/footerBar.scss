@@ -1,12 +1,14 @@
+@import "../../styles/variables";
 .ant-layout-footer {
     border-top: 1px solid #001529;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    padding: 24px 15px!important;
 }
-.footer {
+.footer-box, .footer {
     display: flex;
     justify-content: center;
-    // align-items: center;
+
     img {
         cursor: pointer;
         width: 30px;
@@ -14,5 +16,8 @@
         border-radius: 5px;
         margin-left: 6px;
         margin-right: 6px;
+    }
+    @media #{$mobile} {
+        // flex-direction: column;
     }
 }

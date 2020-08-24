@@ -7,7 +7,8 @@ const FooterBar = () => {
 
     return (
         <div className="footer">
-            <p>Coppyright 2019</p>
+            <div className="footer-box">
+            <p>Coppyright 2020</p>
             <Link activeClass="active"
                 to="header"
                 spy={true}
@@ -15,10 +16,11 @@ const FooterBar = () => {
                 hashSpy={true}
                 offset={0}
                 duration={1000}
-            >
+                >
                 <img src={Home} alt="home logo"/>
             </Link>
-            <p>Suparada Saitalae</p>
+            <p>Ann Keller</p>
+                </div>
         </div>
     )
 }
