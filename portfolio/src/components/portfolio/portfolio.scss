@@ -17,9 +17,12 @@
     background-color: #f7f7f7;
     width: 80px;
     text-align: center;
-    padding: 2px;
     margin: 5px;
     border-radius: 2px;
+    padding: 3px;
+    p {
+      margin: 0;
+    }
   }
   padding: 25px;
   h1 {
