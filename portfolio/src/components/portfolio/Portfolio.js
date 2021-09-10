@@ -2,6 +2,7 @@ import React from "react";
 import RecipeFinder from "./RecipeFinder";
 import TheObservatory from "./TheObservatory";
 import Perflo from "./Perflo";
+import D2d from "./D2d";
 import "./portfolio.scss";
 
 const Portfolio = () => {
@@ -58,9 +59,10 @@ const Portfolio = () => {
         </div>
         <h1>Portfolio</h1>
         <div className="card-wrapper">
-          <RecipeFinder />
-          <TheObservatory />
-          <Perflo />
+            <D2d />
+            <RecipeFinder />
+            <TheObservatory />
+            <Perflo />
         </div>
       </div>
     </>
