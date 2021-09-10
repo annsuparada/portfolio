@@ -36,8 +36,8 @@ const TheObservatory = () => {
                 Used <b>Fixma</b> to design the website. Customized existing{" "}
                 <b>HTML, CSS, and jQuery</b> code from Shopify. Created variant
                 selector feature on a single product page. Created a
-                customizable template page. Colllapleted to the marketing team to researched customers and competitors
-                for analysis and user experience.
+                customizable template page. collaborated with the marketing team to researched customers and competitors
+                for analysis and imporve user experience.
               </p>
             </div>
           }
