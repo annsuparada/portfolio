@@ -29,7 +29,7 @@ const RecipeFinder = () => {
                     description={
                         <div>
                             <p>
-                            A recipe search web application that can search by ingredients, nutrition, food allergy, and calories. Including direction and ingredients. 
+                            A recipe search web application that provides directions, ingredients, recipes, and nutritional facts. Users can search by ingredients, nutrition, calories and avoid food allergies.  
                             </p>
                             <p>Used <b>React/Redux</b> for front end and <b>Ant Design</b> for responsive user interface. 
                             Display and layout the information received from a 3rd party APIs.
