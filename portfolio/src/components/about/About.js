@@ -11,10 +11,12 @@ const About = () => {
                 </div>
                 <div className="right">
                     <h2>About </h2>
-                    <p>Hi, I am a full-stack web developer from Tulsa, Oklahoma. My mission is to deliver the best functional and responsive web applications for clients.
-                    </p>
-                    <p>I have experience with  HTML5, CSS/SASS/LESS, Javascript, React, Redux, Node JS, Express, Postgres, Python, Django, Flask and website design. 
-                    </p>
+                    <p>I'm a Full-Stack Developer with 3+ years of hands-on experience,
+            dedicated to designing, developing, and implementing innovative
+            applications and solutions using a diverse range of technologies and
+            programming languages. My mission is to deliver exceptional,
+            functional, and responsive web applications that exceed client
+            expectations and drive their success.</p>
                 </div>
             </div>
         </div>
